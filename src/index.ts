@@ -6,12 +6,7 @@ import { baseKeymap } from 'prosemirror-commands'
 
 const state = EditorState.create({
   schema,
-  plugins: [
-    keymap(baseKeymap),
-  ],
+  plugins: [ keymap(baseKeymap) ],
 })
 
-new EditorView(
-  document.getElementById('app'),
-  { state },
-)
+new EditorView(document.getElementById('app'), { state })
