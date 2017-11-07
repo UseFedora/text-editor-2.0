@@ -10,6 +10,8 @@
   "author": "",
   "license": "UNLICENSED",
   "dependencies": {
+    "prosemirror-commands": "^1.0.1",
+    "prosemirror-keymap": "^1.0.0",
     "prosemirror-schema-basic": "^1.0.0",
     "prosemirror-state": "^1.0.1",
     "prosemirror-view": "^1.0.0"
